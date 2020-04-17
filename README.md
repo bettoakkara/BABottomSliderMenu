@@ -58,5 +58,10 @@ then,
 
 GOOD LUCK
 ## Authors
+
 [Betto Akkara](https://github.com/bettoakkara)
+
+## License
+
+<b>BASliderView</b> is released under a MIT License. See LICENSE file for details.
 
