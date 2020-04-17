@@ -12,7 +12,7 @@ class BASliderViewController: UIViewController, UIGestureRecognizerDelegate {
     @IBOutlet weak var transparentView: UIView!
     @IBOutlet weak var tableView: SelfSizedTableView!
 
-    private let screenSize = UIScreen.main.bounds.size
+    private var screenSize = UIScreen.main.bounds.size
     private var height: CGFloat = 300
     weak var delegate: BASliderViewDelegates?
     
@@ -43,7 +43,7 @@ class BASliderViewController: UIViewController, UIGestureRecognizerDelegate {
                 font: UIFont.systemFont(ofSize: 16, weight: .bold),
                 textColour: .black,
                 textAlignment: .left
-            )])) //insert(BASliderViewCellProperties(nibName: BASliderViewHeaderCell.cellIdentifier, cellIdentifier: .headerCell, index: 0), at: 0)
+            )]))
         }
         sliderViewCells.reverse()
         tableView.tableFooterView = UIView()
@@ -51,6 +51,7 @@ class BASliderViewController: UIViewController, UIGestureRecognizerDelegate {
     }
     
     override func viewDidAppear(_ animated: Bool) {
+        self.screenSize = transparentView.bounds.size
         transparentView.backgroundColor = UIColor.black.withAlphaComponent(0.0)
         tableView.frame = CGRect(x: 0, y: self.screenSize.height, width: self.screenSize.width, height: height)
         self.tableView.reloadData()
@@ -64,7 +65,6 @@ class BASliderViewController: UIViewController, UIGestureRecognizerDelegate {
             self.tableView.frame = CGRect(x: 0, y: self.screenSize.height - self.height, width: self.screenSize.width, height: self.height)
             self.roundBASliderViewCorners(view: self.tableView, corners: [.topLeft, .topRight] , radius: 20)
         }, completion: { _ in
-            
         })
 
     }
@@ -79,7 +79,6 @@ class BASliderViewController: UIViewController, UIGestureRecognizerDelegate {
             self.transparentView.backgroundColor = UIColor.black.withAlphaComponent(0.0)
             self.tableView.frame = CGRect(x: 0, y: self.screenSize.height, width: self.screenSize.width, height: self.height)
         }, completion: { _ in
-            
             self.dismiss(animated: false, completion: nil)
         })
     }

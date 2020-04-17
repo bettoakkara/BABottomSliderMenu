@@ -39,7 +39,7 @@ class ViewController: UIViewController {
             index: 2,
             itemProperties: [BASliderItemProperties(
                 itemID: 10002,
-                text: "This is a Sample text",
+                text: "This is a Sample text.",
                 font: UIFont.systemFont(ofSize: 12, weight: .regular),
                 textColour: .black,
                 textAlignment: .center
@@ -76,7 +76,7 @@ class ViewController: UIViewController {
                    itemProperties: [BASliderItemProperties(
                        itemID: 10011,
                        text: "link",
-                       font: UIFont.systemFont(ofSize: 18, weight: .light),
+                       font: UIFont.systemFont(ofSize: 12, weight: .light),
                        textColour: .link,
                        backgroundColour: .white,
                        desiredHeight: 20,
