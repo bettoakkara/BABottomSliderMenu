@@ -1,5 +1,5 @@
 # BASliderView
-BASliderView is a customizable bottom slider.
+BASliderView is a customizable bottom slide Menu.
 # Compatibility
 BASliderView requires iOS 10+ and is compatible with Swift 4.2 projects.
 # Installation
