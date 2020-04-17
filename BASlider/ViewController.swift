@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func dfvfvc(_ sender: Any) {
+    @IBAction func showBottomSlider(_ sender: Any) {
         
         let cell1 = BASliderViewCellProperties(
             nibName: BASliderViewCellIdetifiers.imageCell.rawValue,
@@ -39,7 +39,7 @@ class ViewController: UIViewController {
             index: 2,
             itemProperties: [BASliderItemProperties(
                 itemID: 10002,
-                text: "This is a meting to be recomented scdjlskmc sjkc skc skdc sdc s cskc skcted scdjlskmc sjkc skc skdc sdc s cskc skcted scskdc sdc s cskc skcted scdjlskmc sjkc skc skdc sdc s cskc skcted scdjlskmc sjkc skc skdc sdc s cskc skcted scdjlskmc sjkc skc skdc sdc s cskc skcted scdjlskmc sjkc skc skdc sdc s cskc skcted scdjlskmc sjkc skc skdc sdc s cskc skcted scdjlskmc sjkc skc skdc sdc s cskc skcted scdjlskmc sjkc skc skdc sdc s cskc skcted scdjlskmc sjkc skc skdc sdc s cskc skcted scdjlskmc sjkc skc skdc sdc s cskc skcted scdjlskmc sjkc skc skdc sdc s cskc skcted scdjlskmc sjkc skc skdc sdc s cskc skcted scdjlskmc sjkc skc skdc sdc s cskc skcted scdjlskmc sjkc skc skdc sdc s cskc skc",
+                text: "This is a Sample text",
                 font: UIFont.systemFont(ofSize: 12, weight: .regular),
                 textColour: .black,
                 textAlignment: .center
@@ -68,14 +68,15 @@ class ViewController: UIViewController {
                 cornerRadius: 6
             )]
         )
+        
         let cell4 = BASliderViewCellProperties(
             nibName: BASliderViewCellIdetifiers.buttonCell.rawValue,
                    cellIdentifier: BASliderViewCellIdetifiers.buttonCell,
                    index: 3,
                    itemProperties: [BASliderItemProperties(
                        itemID: 10011,
-                       text: "Block",
-                       font: UIFont.systemFont(ofSize: 18, weight: .semibold),
+                       text: "link",
+                       font: UIFont.systemFont(ofSize: 18, weight: .light),
                        textColour: .link,
                        backgroundColour: .white,
                        desiredHeight: 20,
@@ -85,6 +86,7 @@ class ViewController: UIViewController {
         let sliderViewCells = [cell1, cell2, cell3, cell4]  // [BASliderViewCellProperties]
         
         BASlider.show(title: "Alert", sliderViewCells: sliderViewCells, dismissOnTap: false, isHeaderEnabled: true, controller: self)
+       
         //show(sliderViewCells: sliderViewCells, controller: self)
         
     }

@@ -15,16 +15,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ank-vT-LO4">
-                                <rect key="frame" x="90" y="164" width="222" height="204"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ank-vT-LO4">
+                                <rect key="frame" x="20" y="164" width="374" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="F6U-7Q-B8c"/>
+                                </constraints>
+                                <state key="normal" title="Show Bottom Slider"/>
                                 <connections>
-                                    <action selector="dfvfvc:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sB4-Rc-5Ij"/>
+                                    <action selector="showBottomSlider:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sB4-Rc-5Ij"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ank-vT-LO4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="76" id="Anz-Rf-rmG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ank-vT-LO4" secondAttribute="trailing" constant="20" id="EKU-fS-joH"/>
+                            <constraint firstItem="ank-vT-LO4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="nMg-up-RdD"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="Zgk-h8-y1y"/>
