@@ -7,44 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		543116A32449279400F1A95D /* BASliderProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543116A22449279400F1A95D /* BASliderProtocols.swift */; };
-		54384DC024494A8300182291 /* BASliderItemProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54384DBF24494A8300182291 /* BASliderItemProperties.swift */; };
-		54C1BCA724493660003D2DCC /* BASliderViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C1BCA624493660003D2DCC /* BASliderViewDelegates.swift */; };
-		54C1BCA92449372D003D2DCC /* BASlideViewActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C1BCA82449372D003D2DCC /* BASlideViewActionButton.swift */; };
-		54C1BCAE24493D6D003D2DCC /* BASliderViewTwoButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C1BCAC24493D6D003D2DCC /* BASliderViewTwoButtonCell.swift */; };
-		54C1BCAF24493D6D003D2DCC /* BASliderViewTwoButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54C1BCAD24493D6D003D2DCC /* BASliderViewTwoButtonCell.xib */; };
 		54DD27512448858300FA7003 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD27502448858300FA7003 /* AppDelegate.swift */; };
 		54DD27532448858300FA7003 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD27522448858300FA7003 /* SceneDelegate.swift */; };
 		54DD27552448858300FA7003 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD27542448858300FA7003 /* ViewController.swift */; };
 		54DD27582448858300FA7003 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54DD27562448858300FA7003 /* Main.storyboard */; };
 		54DD275A2448858500FA7003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54DD27592448858500FA7003 /* Assets.xcassets */; };
 		54DD275D2448858500FA7003 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54DD275B2448858500FA7003 /* LaunchScreen.storyboard */; };
-		54DD276E2448861300FA7003 /* SelfSizedTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD276D2448861300FA7003 /* SelfSizedTableView.swift */; };
-		54DD27752448876B00FA7003 /* BASliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD27732448876B00FA7003 /* BASliderViewController.swift */; };
-		54DD27762448876B00FA7003 /* BASliderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54DD27742448876B00FA7003 /* BASliderViewController.xib */; };
-		54DD2778244895C800FA7003 /* BASliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD2777244895C800FA7003 /* BASliderView.swift */; };
-		54DD277A244897B000FA7003 /* BASliderViewCellRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD2779244897B000FA7003 /* BASliderViewCellRegister.swift */; };
-		54DD277D2448A40600FA7003 /* BASliderViewHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD277B2448A40600FA7003 /* BASliderViewHeaderCell.swift */; };
-		54DD277E2448A40600FA7003 /* BASliderViewHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54DD277C2448A40600FA7003 /* BASliderViewHeaderCell.xib */; };
-		54DD27802448A43E00FA7003 /* BASliderAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54DD277F2448A43E00FA7003 /* BASliderAssets.xcassets */; };
-		54DD27822448A6A200FA7003 /* BASlideViewCellIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD27812448A6A200FA7003 /* BASlideViewCellIdentifiers.swift */; };
-		54DD27842448A9C000FA7003 /* BASliderViewCellProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD27832448A9C000FA7003 /* BASliderViewCellProperties.swift */; };
-		54DD27882448AF8B00FA7003 /* BASliderViewImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD27862448AF8B00FA7003 /* BASliderViewImageCell.swift */; };
-		54DD27892448AF8B00FA7003 /* BASliderViewImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54DD27872448AF8B00FA7003 /* BASliderViewImageCell.xib */; };
-		54DD278C2448AFAA00FA7003 /* BASliderViewTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD278A2448AFAA00FA7003 /* BASliderViewTextCell.swift */; };
-		54DD278D2448AFAA00FA7003 /* BASliderViewTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54DD278B2448AFAA00FA7003 /* BASliderViewTextCell.xib */; };
-		54DD27902448AFBC00FA7003 /* BASliderViewButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD278E2448AFBC00FA7003 /* BASliderViewButtonCell.swift */; };
-		54DD27912448AFBC00FA7003 /* BASliderViewButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54DD278F2448AFBC00FA7003 /* BASliderViewButtonCell.xib */; };
-		54DD27932448D5D200FA7003 /* BASlideViewDefaultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD27922448D5D200FA7003 /* BASlideViewDefaultTableViewCell.swift */; };
+		A4824E3C24AB233200D5E2F2 /* BASliderViewTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4824E2124AB233100D5E2F2 /* BASliderViewTextCell.xib */; };
+		A4824E3D24AB233200D5E2F2 /* BASliderViewHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4824E2224AB233100D5E2F2 /* BASliderViewHeaderCell.swift */; };
+		A4824E3E24AB233200D5E2F2 /* BASliderViewButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4824E2324AB233100D5E2F2 /* BASliderViewButtonCell.swift */; };
+		A4824E3F24AB233200D5E2F2 /* BASliderViewImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4824E2424AB233100D5E2F2 /* BASliderViewImageCell.xib */; };
+		A4824E4024AB233200D5E2F2 /* BASliderViewTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4824E2524AB233100D5E2F2 /* BASliderViewTextCell.swift */; };
+		A4824E4124AB233200D5E2F2 /* BASlideViewDefaultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4824E2624AB233100D5E2F2 /* BASlideViewDefaultTableViewCell.swift */; };
+		A4824E4224AB233200D5E2F2 /* BASliderViewTwoButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4824E2724AB233100D5E2F2 /* BASliderViewTwoButtonCell.swift */; };
+		A4824E4324AB233200D5E2F2 /* BASliderViewButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4824E2824AB233100D5E2F2 /* BASliderViewButtonCell.xib */; };
+		A4824E4424AB233200D5E2F2 /* BASliderViewHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4824E2924AB233100D5E2F2 /* BASliderViewHeaderCell.xib */; };
+		A4824E4524AB233200D5E2F2 /* BASliderViewTwoButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4824E2A24AB233100D5E2F2 /* BASliderViewTwoButtonCell.xib */; };
+		A4824E4624AB233200D5E2F2 /* BASliderViewImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4824E2B24AB233100D5E2F2 /* BASliderViewImageCell.swift */; };
+		A4824E4724AB233200D5E2F2 /* BASliderAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4824E2C24AB233100D5E2F2 /* BASliderAssets.xcassets */; };
+		A4824E4824AB233200D5E2F2 /* BASliderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4824E2E24AB233100D5E2F2 /* BASliderViewController.xib */; };
+		A4824E4924AB233200D5E2F2 /* BASliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4824E2F24AB233100D5E2F2 /* BASliderViewController.swift */; };
+		A4824E4A24AB233200D5E2F2 /* BASliderViewCellRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4824E3024AB233100D5E2F2 /* BASliderViewCellRegister.swift */; };
+		A4824E4B24AB233200D5E2F2 /* BASliderViewCellProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4824E3224AB233100D5E2F2 /* BASliderViewCellProperties.swift */; };
+		A4824E4C24AB233200D5E2F2 /* BASliderItemProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4824E3324AB233100D5E2F2 /* BASliderItemProperties.swift */; };
+		A4824E4D24AB233200D5E2F2 /* BASlideViewCellIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4824E3424AB233100D5E2F2 /* BASlideViewCellIdentifiers.swift */; };
+		A4824E4E24AB233200D5E2F2 /* BASliderProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4824E3624AB233100D5E2F2 /* BASliderProtocols.swift */; };
+		A4824E4F24AB233200D5E2F2 /* BASliderViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4824E3724AB233100D5E2F2 /* BASliderViewDelegates.swift */; };
+		A4824E5024AB233200D5E2F2 /* SelfSizedTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4824E3924AB233200D5E2F2 /* SelfSizedTableView.swift */; };
+		A4824E5124AB233200D5E2F2 /* BASlideViewActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4824E3A24AB233200D5E2F2 /* BASlideViewActionButton.swift */; };
+		A4824E5224AB233200D5E2F2 /* BASliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4824E3B24AB233200D5E2F2 /* BASliderView.swift */; };
+		A4824E5424AB235200D5E2F2 /* GeneralizedOverLayes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4824E5324AB235200D5E2F2 /* GeneralizedOverLayes.swift */; };
+		A4824E7824AB263400D5E2F2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4824E7724AB263400D5E2F2 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		543116A22449279400F1A95D /* BASliderProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BASliderProtocols.swift; sourceTree = "<group>"; };
-		54384DBF24494A8300182291 /* BASliderItemProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BASliderItemProperties.swift; sourceTree = "<group>"; };
-		54C1BCA624493660003D2DCC /* BASliderViewDelegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BASliderViewDelegates.swift; sourceTree = "<group>"; };
-		54C1BCA82449372D003D2DCC /* BASlideViewActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BASlideViewActionButton.swift; sourceTree = "<group>"; };
-		54C1BCAC24493D6D003D2DCC /* BASliderViewTwoButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BASliderViewTwoButtonCell.swift; sourceTree = "<group>"; };
-		54C1BCAD24493D6D003D2DCC /* BASliderViewTwoButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BASliderViewTwoButtonCell.xib; sourceTree = "<group>"; };
 		54DD274D2448858300FA7003 /* BASlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BASlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54DD27502448858300FA7003 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54DD27522448858300FA7003 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,24 +48,31 @@
 		54DD27572448858300FA7003 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		54DD27592448858500FA7003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54DD275C2448858500FA7003 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		54DD275E2448858500FA7003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		54DD276D2448861300FA7003 /* SelfSizedTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfSizedTableView.swift; sourceTree = "<group>"; };
-		54DD27732448876B00FA7003 /* BASliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BASliderViewController.swift; sourceTree = "<group>"; };
-		54DD27742448876B00FA7003 /* BASliderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BASliderViewController.xib; sourceTree = "<group>"; };
-		54DD2777244895C800FA7003 /* BASliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BASliderView.swift; sourceTree = "<group>"; };
-		54DD2779244897B000FA7003 /* BASliderViewCellRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BASliderViewCellRegister.swift; sourceTree = "<group>"; };
-		54DD277B2448A40600FA7003 /* BASliderViewHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BASliderViewHeaderCell.swift; sourceTree = "<group>"; };
-		54DD277C2448A40600FA7003 /* BASliderViewHeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BASliderViewHeaderCell.xib; sourceTree = "<group>"; };
-		54DD277F2448A43E00FA7003 /* BASliderAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = BASliderAssets.xcassets; sourceTree = "<group>"; };
-		54DD27812448A6A200FA7003 /* BASlideViewCellIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BASlideViewCellIdentifiers.swift; sourceTree = "<group>"; };
-		54DD27832448A9C000FA7003 /* BASliderViewCellProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BASliderViewCellProperties.swift; sourceTree = "<group>"; };
-		54DD27862448AF8B00FA7003 /* BASliderViewImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BASliderViewImageCell.swift; sourceTree = "<group>"; };
-		54DD27872448AF8B00FA7003 /* BASliderViewImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BASliderViewImageCell.xib; sourceTree = "<group>"; };
-		54DD278A2448AFAA00FA7003 /* BASliderViewTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BASliderViewTextCell.swift; sourceTree = "<group>"; };
-		54DD278B2448AFAA00FA7003 /* BASliderViewTextCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BASliderViewTextCell.xib; sourceTree = "<group>"; };
-		54DD278E2448AFBC00FA7003 /* BASliderViewButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BASliderViewButtonCell.swift; sourceTree = "<group>"; };
-		54DD278F2448AFBC00FA7003 /* BASliderViewButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BASliderViewButtonCell.xib; sourceTree = "<group>"; };
-		54DD27922448D5D200FA7003 /* BASlideViewDefaultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BASlideViewDefaultTableViewCell.swift; sourceTree = "<group>"; };
+		A4824E2124AB233100D5E2F2 /* BASliderViewTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BASliderViewTextCell.xib; sourceTree = "<group>"; };
+		A4824E2224AB233100D5E2F2 /* BASliderViewHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BASliderViewHeaderCell.swift; sourceTree = "<group>"; };
+		A4824E2324AB233100D5E2F2 /* BASliderViewButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BASliderViewButtonCell.swift; sourceTree = "<group>"; };
+		A4824E2424AB233100D5E2F2 /* BASliderViewImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BASliderViewImageCell.xib; sourceTree = "<group>"; };
+		A4824E2524AB233100D5E2F2 /* BASliderViewTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BASliderViewTextCell.swift; sourceTree = "<group>"; };
+		A4824E2624AB233100D5E2F2 /* BASlideViewDefaultTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BASlideViewDefaultTableViewCell.swift; sourceTree = "<group>"; };
+		A4824E2724AB233100D5E2F2 /* BASliderViewTwoButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BASliderViewTwoButtonCell.swift; sourceTree = "<group>"; };
+		A4824E2824AB233100D5E2F2 /* BASliderViewButtonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BASliderViewButtonCell.xib; sourceTree = "<group>"; };
+		A4824E2924AB233100D5E2F2 /* BASliderViewHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BASliderViewHeaderCell.xib; sourceTree = "<group>"; };
+		A4824E2A24AB233100D5E2F2 /* BASliderViewTwoButtonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BASliderViewTwoButtonCell.xib; sourceTree = "<group>"; };
+		A4824E2B24AB233100D5E2F2 /* BASliderViewImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BASliderViewImageCell.swift; sourceTree = "<group>"; };
+		A4824E2C24AB233100D5E2F2 /* BASliderAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = BASliderAssets.xcassets; sourceTree = "<group>"; };
+		A4824E2E24AB233100D5E2F2 /* BASliderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BASliderViewController.xib; sourceTree = "<group>"; };
+		A4824E2F24AB233100D5E2F2 /* BASliderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BASliderViewController.swift; sourceTree = "<group>"; };
+		A4824E3024AB233100D5E2F2 /* BASliderViewCellRegister.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BASliderViewCellRegister.swift; sourceTree = "<group>"; };
+		A4824E3224AB233100D5E2F2 /* BASliderViewCellProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BASliderViewCellProperties.swift; sourceTree = "<group>"; };
+		A4824E3324AB233100D5E2F2 /* BASliderItemProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BASliderItemProperties.swift; sourceTree = "<group>"; };
+		A4824E3424AB233100D5E2F2 /* BASlideViewCellIdentifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BASlideViewCellIdentifiers.swift; sourceTree = "<group>"; };
+		A4824E3624AB233100D5E2F2 /* BASliderProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BASliderProtocols.swift; sourceTree = "<group>"; };
+		A4824E3724AB233100D5E2F2 /* BASliderViewDelegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BASliderViewDelegates.swift; sourceTree = "<group>"; };
+		A4824E3924AB233200D5E2F2 /* SelfSizedTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfSizedTableView.swift; sourceTree = "<group>"; };
+		A4824E3A24AB233200D5E2F2 /* BASlideViewActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BASlideViewActionButton.swift; sourceTree = "<group>"; };
+		A4824E3B24AB233200D5E2F2 /* BASliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BASliderView.swift; sourceTree = "<group>"; };
+		A4824E5324AB235200D5E2F2 /* GeneralizedOverLayes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralizedOverLayes.swift; sourceTree = "<group>"; };
+		A4824E7724AB263400D5E2F2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,44 +86,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		54C1BCB024493D7E003D2DCC /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				54DD2777244895C800FA7003 /* BASliderView.swift */,
-				54DD276D2448861300FA7003 /* SelfSizedTableView.swift */,
-				54C1BCA82449372D003D2DCC /* BASlideViewActionButton.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		54C1BCB124493D9C003D2DCC /* Delegates */ = {
-			isa = PBXGroup;
-			children = (
-				54C1BCA624493660003D2DCC /* BASliderViewDelegates.swift */,
-				543116A22449279400F1A95D /* BASliderProtocols.swift */,
-			);
-			path = Delegates;
-			sourceTree = "<group>";
-		};
-		54C1BCB224493DD1003D2DCC /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				54DD27732448876B00FA7003 /* BASliderViewController.swift */,
-				54DD27742448876B00FA7003 /* BASliderViewController.xib */,
-				54DD2779244897B000FA7003 /* BASliderViewCellRegister.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		54C1BCB324493DF8003D2DCC /* Properties */ = {
-			isa = PBXGroup;
-			children = (
-				54DD27832448A9C000FA7003 /* BASliderViewCellProperties.swift */,
-				54384DBF24494A8300182291 /* BASliderItemProperties.swift */,
-			);
-			path = Properties;
-			sourceTree = "<group>";
-		};
 		54DD27442448858300FA7003 = {
 			isa = PBXGroup;
 			children = (
@@ -140,48 +105,87 @@
 		54DD274F2448858300FA7003 /* BASlider */ = {
 			isa = PBXGroup;
 			children = (
-				54DD276C244885EE00FA7003 /* Source */,
+				A4824E1F24AB233100D5E2F2 /* Source */,
 				54DD27502448858300FA7003 /* AppDelegate.swift */,
 				54DD27522448858300FA7003 /* SceneDelegate.swift */,
 				54DD27542448858300FA7003 /* ViewController.swift */,
 				54DD27562448858300FA7003 /* Main.storyboard */,
 				54DD27592448858500FA7003 /* Assets.xcassets */,
 				54DD275B2448858500FA7003 /* LaunchScreen.storyboard */,
-				54DD275E2448858500FA7003 /* Info.plist */,
+				A4824E7724AB263400D5E2F2 /* Info.plist */,
 			);
 			path = BASlider;
 			sourceTree = "<group>";
 		};
-		54DD276C244885EE00FA7003 /* Source */ = {
+		A4824E1F24AB233100D5E2F2 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				54DD27812448A6A200FA7003 /* BASlideViewCellIdentifiers.swift */,
-				54C1BCB024493D7E003D2DCC /* Views */,
-				54C1BCB224493DD1003D2DCC /* Controller */,
-				54C1BCB124493D9C003D2DCC /* Delegates */,
-				54C1BCB324493DF8003D2DCC /* Properties */,
-				54DD27852448AF6100FA7003 /* DefaultCells */,
-				54DD277F2448A43E00FA7003 /* BASliderAssets.xcassets */,
+				A4824E3424AB233100D5E2F2 /* BASlideViewCellIdentifiers.swift */,
+				A4824E5324AB235200D5E2F2 /* GeneralizedOverLayes.swift */,
+				A4824E2024AB233100D5E2F2 /* DefaultCells */,
+				A4824E2C24AB233100D5E2F2 /* BASliderAssets.xcassets */,
+				A4824E2D24AB233100D5E2F2 /* Controller */,
+				A4824E3124AB233100D5E2F2 /* Properties */,
+				A4824E3524AB233100D5E2F2 /* Delegates */,
+				A4824E3824AB233200D5E2F2 /* Views */,
 			);
 			path = Source;
 			sourceTree = "<group>";
 		};
-		54DD27852448AF6100FA7003 /* DefaultCells */ = {
+		A4824E2024AB233100D5E2F2 /* DefaultCells */ = {
 			isa = PBXGroup;
 			children = (
-				54DD27922448D5D200FA7003 /* BASlideViewDefaultTableViewCell.swift */,
-				54DD277B2448A40600FA7003 /* BASliderViewHeaderCell.swift */,
-				54DD277C2448A40600FA7003 /* BASliderViewHeaderCell.xib */,
-				54DD27862448AF8B00FA7003 /* BASliderViewImageCell.swift */,
-				54DD27872448AF8B00FA7003 /* BASliderViewImageCell.xib */,
-				54DD278A2448AFAA00FA7003 /* BASliderViewTextCell.swift */,
-				54DD278B2448AFAA00FA7003 /* BASliderViewTextCell.xib */,
-				54DD278E2448AFBC00FA7003 /* BASliderViewButtonCell.swift */,
-				54DD278F2448AFBC00FA7003 /* BASliderViewButtonCell.xib */,
-				54C1BCAC24493D6D003D2DCC /* BASliderViewTwoButtonCell.swift */,
-				54C1BCAD24493D6D003D2DCC /* BASliderViewTwoButtonCell.xib */,
+				A4824E2124AB233100D5E2F2 /* BASliderViewTextCell.xib */,
+				A4824E2224AB233100D5E2F2 /* BASliderViewHeaderCell.swift */,
+				A4824E2324AB233100D5E2F2 /* BASliderViewButtonCell.swift */,
+				A4824E2424AB233100D5E2F2 /* BASliderViewImageCell.xib */,
+				A4824E2524AB233100D5E2F2 /* BASliderViewTextCell.swift */,
+				A4824E2624AB233100D5E2F2 /* BASlideViewDefaultTableViewCell.swift */,
+				A4824E2724AB233100D5E2F2 /* BASliderViewTwoButtonCell.swift */,
+				A4824E2824AB233100D5E2F2 /* BASliderViewButtonCell.xib */,
+				A4824E2924AB233100D5E2F2 /* BASliderViewHeaderCell.xib */,
+				A4824E2A24AB233100D5E2F2 /* BASliderViewTwoButtonCell.xib */,
+				A4824E2B24AB233100D5E2F2 /* BASliderViewImageCell.swift */,
 			);
 			path = DefaultCells;
+			sourceTree = "<group>";
+		};
+		A4824E2D24AB233100D5E2F2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4824E2E24AB233100D5E2F2 /* BASliderViewController.xib */,
+				A4824E2F24AB233100D5E2F2 /* BASliderViewController.swift */,
+				A4824E3024AB233100D5E2F2 /* BASliderViewCellRegister.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A4824E3124AB233100D5E2F2 /* Properties */ = {
+			isa = PBXGroup;
+			children = (
+				A4824E3224AB233100D5E2F2 /* BASliderViewCellProperties.swift */,
+				A4824E3324AB233100D5E2F2 /* BASliderItemProperties.swift */,
+			);
+			path = Properties;
+			sourceTree = "<group>";
+		};
+		A4824E3524AB233100D5E2F2 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				A4824E3624AB233100D5E2F2 /* BASliderProtocols.swift */,
+				A4824E3724AB233100D5E2F2 /* BASliderViewDelegates.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		A4824E3824AB233200D5E2F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A4824E3924AB233200D5E2F2 /* SelfSizedTableView.swift */,
+				A4824E3A24AB233200D5E2F2 /* BASlideViewActionButton.swift */,
+				A4824E3B24AB233200D5E2F2 /* BASliderView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,16 +246,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4824E4324AB233200D5E2F2 /* BASliderViewButtonCell.xib in Resources */,
 				54DD275D2448858500FA7003 /* LaunchScreen.storyboard in Resources */,
-				54DD27802448A43E00FA7003 /* BASliderAssets.xcassets in Resources */,
-				54C1BCAF24493D6D003D2DCC /* BASliderViewTwoButtonCell.xib in Resources */,
-				54DD278D2448AFAA00FA7003 /* BASliderViewTextCell.xib in Resources */,
+				A4824E4824AB233200D5E2F2 /* BASliderViewController.xib in Resources */,
 				54DD275A2448858500FA7003 /* Assets.xcassets in Resources */,
-				54DD27762448876B00FA7003 /* BASliderViewController.xib in Resources */,
-				54DD277E2448A40600FA7003 /* BASliderViewHeaderCell.xib in Resources */,
-				54DD27892448AF8B00FA7003 /* BASliderViewImageCell.xib in Resources */,
-				54DD27912448AFBC00FA7003 /* BASliderViewButtonCell.xib in Resources */,
+				A4824E3F24AB233200D5E2F2 /* BASliderViewImageCell.xib in Resources */,
 				54DD27582448858300FA7003 /* Main.storyboard in Resources */,
+				A4824E4524AB233200D5E2F2 /* BASliderViewTwoButtonCell.xib in Resources */,
+				A4824E3C24AB233200D5E2F2 /* BASliderViewTextCell.xib in Resources */,
+				A4824E7824AB263400D5E2F2 /* Info.plist in Resources */,
+				A4824E4724AB233200D5E2F2 /* BASliderAssets.xcassets in Resources */,
+				A4824E4424AB233200D5E2F2 /* BASliderViewHeaderCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,25 +267,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54C1BCA724493660003D2DCC /* BASliderViewDelegates.swift in Sources */,
-				54DD27902448AFBC00FA7003 /* BASliderViewButtonCell.swift in Sources */,
+				A4824E4924AB233200D5E2F2 /* BASliderViewController.swift in Sources */,
+				A4824E5424AB235200D5E2F2 /* GeneralizedOverLayes.swift in Sources */,
+				A4824E5024AB233200D5E2F2 /* SelfSizedTableView.swift in Sources */,
+				A4824E4124AB233200D5E2F2 /* BASlideViewDefaultTableViewCell.swift in Sources */,
+				A4824E4224AB233200D5E2F2 /* BASliderViewTwoButtonCell.swift in Sources */,
+				A4824E4624AB233200D5E2F2 /* BASliderViewImageCell.swift in Sources */,
+				A4824E4C24AB233200D5E2F2 /* BASliderItemProperties.swift in Sources */,
+				A4824E5224AB233200D5E2F2 /* BASliderView.swift in Sources */,
+				A4824E4F24AB233200D5E2F2 /* BASliderViewDelegates.swift in Sources */,
+				A4824E5124AB233200D5E2F2 /* BASlideViewActionButton.swift in Sources */,
+				A4824E4E24AB233200D5E2F2 /* BASliderProtocols.swift in Sources */,
+				A4824E3E24AB233200D5E2F2 /* BASliderViewButtonCell.swift in Sources */,
+				A4824E4D24AB233200D5E2F2 /* BASlideViewCellIdentifiers.swift in Sources */,
+				A4824E4024AB233200D5E2F2 /* BASliderViewTextCell.swift in Sources */,
+				A4824E4A24AB233200D5E2F2 /* BASliderViewCellRegister.swift in Sources */,
 				54DD27552448858300FA7003 /* ViewController.swift in Sources */,
-				54DD27882448AF8B00FA7003 /* BASliderViewImageCell.swift in Sources */,
-				54DD27932448D5D200FA7003 /* BASlideViewDefaultTableViewCell.swift in Sources */,
-				543116A32449279400F1A95D /* BASliderProtocols.swift in Sources */,
-				54C1BCA92449372D003D2DCC /* BASlideViewActionButton.swift in Sources */,
-				54DD278C2448AFAA00FA7003 /* BASliderViewTextCell.swift in Sources */,
-				54DD27752448876B00FA7003 /* BASliderViewController.swift in Sources */,
-				54DD277D2448A40600FA7003 /* BASliderViewHeaderCell.swift in Sources */,
-				54DD27822448A6A200FA7003 /* BASlideViewCellIdentifiers.swift in Sources */,
+				A4824E3D24AB233200D5E2F2 /* BASliderViewHeaderCell.swift in Sources */,
 				54DD27512448858300FA7003 /* AppDelegate.swift in Sources */,
-				54384DC024494A8300182291 /* BASliderItemProperties.swift in Sources */,
+				A4824E4B24AB233200D5E2F2 /* BASliderViewCellProperties.swift in Sources */,
 				54DD27532448858300FA7003 /* SceneDelegate.swift in Sources */,
-				54DD27842448A9C000FA7003 /* BASliderViewCellProperties.swift in Sources */,
-				54DD276E2448861300FA7003 /* SelfSizedTableView.swift in Sources */,
-				54C1BCAE24493D6D003D2DCC /* BASliderViewTwoButtonCell.swift in Sources */,
-				54DD2778244895C800FA7003 /* BASliderView.swift in Sources */,
-				54DD277A244897B000FA7003 /* BASliderViewCellRegister.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +432,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BASlider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -443,6 +450,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BASlider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -21,6 +21,11 @@ class BASliderViewHeaderCell: BASlideViewDefaultTableViewCell {
             textlbl.textColor = itemProperties?.first?.textColour
             textlbl.font = itemProperties?.first?.font
             textlbl.textAlignment = itemProperties?.first?.textAlignment ?? NSTextAlignment.left
+            closeBtn.setImage(itemProperties?.first?.image, for: .normal)
+            if itemProperties?.first?.isCustomHeader == true{
+                closeBtn.isHidden = false
+            }
+            
         }
     }
     
