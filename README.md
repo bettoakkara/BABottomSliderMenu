@@ -1,12 +1,12 @@
-# BASliderView
-BASliderView is a customizable bottom slide Menu.
+# BABottomSliderMenu
+BABottomSliderMenu is a customizable bottom slide Menu.
 # Compatibility
-BASliderView requires iOS 10+ and is compatible with Swift 4.2 projects.
+BABottomSliderMenu requires iOS 10+ and is compatible with Swift 4.2 projects.
 # Installation
 Drag and Drop the folder `Source` into your project.
 # Usage
 
-BASliderView was designed to be used effortlessly.
+BABottomSliderMenu was designed to be used effortlessly.
 
 ## Create Cells
 create the cells as follows:- 
@@ -63,5 +63,5 @@ GOOD LUCK
 
 ## License
 
-<b>BASliderView</b> is released under a MIT License. See LICENSE file for details.
+<b>BABottomSliderMenu</b> is released under a MIT License. See LICENSE file for details.
 
