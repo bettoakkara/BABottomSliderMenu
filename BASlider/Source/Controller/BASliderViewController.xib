@@ -2,12 +2,13 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BASliderViewController" customModule="BASlider" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BASliderViewController" customModule="FedMobile" customModuleProvider="target">
             <connections>
                 <outlet property="tableView" destination="iTn-Of-3kF" id="DQ0-7r-6tJ"/>
                 <outlet property="transparentView" destination="hrY-6e-w4S" id="EmQ-yE-dIw"/>
@@ -20,10 +21,10 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hrY-6e-w4S">
-                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                     <subviews>
-                        <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="iTn-Of-3kF" customClass="SelfSizedTableView" customModule="BASlider" customModuleProvider="target">
-                            <rect key="frame" x="8" y="726" width="398" height="37"/>
+                        <tableView hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="iTn-Of-3kF" customClass="SelfSizedTableView" customModule="FedMobile" customModuleProvider="target">
+                            <rect key="frame" x="8" y="859" width="398" height="37"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         </tableView>
@@ -34,8 +35,8 @@
             </subviews>
             <constraints>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="hrY-6e-w4S" secondAttribute="trailing" id="1ke-po-bCN"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="hrY-6e-w4S" secondAttribute="bottom" id="N2L-uN-gv4"/>
-                <constraint firstItem="hrY-6e-w4S" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Pay-D7-KGo"/>
+                <constraint firstAttribute="bottom" secondItem="hrY-6e-w4S" secondAttribute="bottom" id="N2L-uN-gv4"/>
+                <constraint firstItem="hrY-6e-w4S" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Pay-D7-KGo"/>
                 <constraint firstItem="hrY-6e-w4S" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="w3n-zW-aTS"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>

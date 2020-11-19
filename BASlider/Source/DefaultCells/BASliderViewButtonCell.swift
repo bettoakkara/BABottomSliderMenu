@@ -22,6 +22,7 @@ class BASliderViewButtonCell: BASlideViewDefaultTableViewCell {
             button.backgroundColor = itemProperties?.first?.backgroundColour
             button.layer.borderWidth = itemProperties?.first?.borderWidth ?? 0
             button.layer.borderColor = (itemProperties?.first?.borderColor ?? .white).cgColor
+            button.layer.cornerRadius = itemProperties?.first?.cornerRadius ?? 0
             if itemProperties?.first?.desiredelementHeight != 0{
                 buttonHeight.constant = itemProperties?.first?.desiredelementHeight ?? 45
             }
