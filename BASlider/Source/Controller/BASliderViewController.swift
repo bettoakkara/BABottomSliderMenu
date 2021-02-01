@@ -21,6 +21,10 @@ class BASliderViewController: UIViewController, UIGestureRecognizerDelegate {
     var isHeaderEnabled : Bool = true
     var dismissOnTap : Bool = true
     var titleString : String = ""
+    var titleColour : UIColor = .black
+    var isbgImgEnabled : Bool = false
+    //MARK:-
+    private var backGroundImg : UIImage = UIImage(named: "img-bs-background") ?? UIImage()
     //MARK:-
     
     override func viewDidLoad() {
@@ -36,15 +40,22 @@ class BASliderViewController: UIViewController, UIGestureRecognizerDelegate {
             self.cellRegister(sliderViewCellProperties)
         }
         sliderViewCells.sort{ $0.index! > $1.index! }
+        if isbgImgEnabled {
+            self.tableView.backgroundColor = UIColor.clear
+            self.tableView.backgroundView = UIImageView(image: backGroundImg)
+            self.titleColour = .white
+        }
         if isHeaderEnabled {
             sliderViewCells.append(BASliderViewCellProperties(nibName: BASliderViewHeaderCell.headerCellIdentifier, cellIdentifier: .headerCell, index: 0, itemProperties: [BASliderItemProperties(
                 itemID: 369,
                 text: titleString,
                 font: UIFont.systemFont(ofSize: 16, weight: .bold),
-                textColour: .black,
-                textAlignment: .left
+                textColour: titleColour,
+                textAlignment: .left,
+                imageName: isbgImgEnabled ? "icCrossWhite" : "icCross"
             )]))
         }
+        
         sliderViewCells.reverse()
         tableView.tableFooterView = UIView()
         tableView.reloadData()
@@ -53,16 +64,27 @@ class BASliderViewController: UIViewController, UIGestureRecognizerDelegate {
     override func viewDidAppear(_ animated: Bool) {
         self.screenSize = transparentView.bounds.size
         transparentView.backgroundColor = UIColor.black.withAlphaComponent(0.0)
-        tableView.frame = CGRect(x: 0, y: self.screenSize.height, width: self.screenSize.width, height: height)
+        tableView.frame = CGRect(x: 10, y: self.screenSize.height, width: self.screenSize.width - 20, height: height)
         self.tableView.reloadData()
         if dismissOnTap{
             let tapGesture = UITapGestureRecognizer(target: self, action: #selector(onClickTransparentView))
             self.transparentView.addGestureRecognizer(tapGesture)
         }
         UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 1.0, initialSpringVelocity: 1.0, options: .curveEaseInOut, animations: {
+            self.tableView.isHidden = false
             self.transparentView.backgroundColor = UIColor.black.withAlphaComponent(0.4)
-            self.height = (self.tableView.tableFooterView?.frame.minY ?? 0)
-            self.tableView.frame = CGRect(x: 0, y: self.screenSize.height - self.height, width: self.screenSize.width, height: self.height)
+            
+            var notchHeight : CGFloat = 0
+            if UIDevice().userInterfaceIdiom == .phone {
+                if UIScreen.main.nativeBounds.height > 1780 {
+                    notchHeight = 44
+                }else{
+                    notchHeight = 0
+                }
+            }
+            
+            self.height = (self.tableView.tableFooterView?.frame.minY ?? 0) + notchHeight
+            self.tableView.frame = CGRect(x: 10, y: self.screenSize.height - self.height, width: self.screenSize.width - 20, height: self.height)
             self.roundBASliderViewCorners(view: self.tableView, corners: [.topLeft, .topRight] , radius: 20)
         }, completion: { _ in
         })
@@ -72,13 +94,15 @@ class BASliderViewController: UIViewController, UIGestureRecognizerDelegate {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
+   
 
     @objc private func onClickTransparentView() {
         
         UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 1.0, initialSpringVelocity: 1.0, options: .curveEaseInOut, animations: {
             self.transparentView.backgroundColor = UIColor.black.withAlphaComponent(0.0)
-            self.tableView.frame = CGRect(x: 0, y: self.screenSize.height, width: self.screenSize.width, height: self.height)
+            self.tableView.frame = CGRect(x: 10, y: self.screenSize.height, width: self.screenSize.width - 20, height: self.height)
         }, completion: { _ in
+            self.delegate?.BASliderDidDismiss() // New requirements
             self.dismiss(animated: false, completion: nil)
         })
     }
@@ -115,6 +139,7 @@ extension BASliderViewController {
 }
 
 extension BASliderViewController : BASliderProtocols{
+    
     func BASliderView(_ cellIdentifier: BASliderViewCellIdetifiers?, itemId: Int?) {
         self.delegate?.BASliderView(cellIdentifier, itemId: itemId)
     }
@@ -122,5 +147,11 @@ extension BASliderViewController : BASliderProtocols{
     func BASliderDismiss() {
         self.onClickTransparentView()
         self.delegate?.BASliderDidDismiss()
+    }
+}
+
+public func delay(_ seconds: Double, completion: @escaping () -> ()) {
+    DispatchQueue.main.asyncAfter(deadline: .now() + seconds) {
+        completion()
     }
 }

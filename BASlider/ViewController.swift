@@ -96,10 +96,10 @@ class ViewController: UIViewController {
 
 extension ViewController : BASliderViewDelegates{
     func BASliderView(_ cellIdentifier: BASliderViewCellIdetifiers?, itemId: Int?) {
-        print(cellIdentifier?.rawValue,itemId)
+        print(cellIdentifier?.rawValue as Any,itemId!)
     }
     func BASliderView(_ cellIdentifier: BASliderViewCellIdetifiers?, didSelectRowAt indexPath: IndexPath) {
-        print(cellIdentifier?.rawValue)
+        print(cellIdentifier?.rawValue as Any)
     }
     func BASliderDidDismiss() {
         print("BASliderDidDismiss")

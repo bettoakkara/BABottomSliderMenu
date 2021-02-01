@@ -7,44 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		543116A32449279400F1A95D /* BASliderProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543116A22449279400F1A95D /* BASliderProtocols.swift */; };
-		54384DC024494A8300182291 /* BASliderItemProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54384DBF24494A8300182291 /* BASliderItemProperties.swift */; };
-		54C1BCA724493660003D2DCC /* BASliderViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C1BCA624493660003D2DCC /* BASliderViewDelegates.swift */; };
-		54C1BCA92449372D003D2DCC /* BASlideViewActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C1BCA82449372D003D2DCC /* BASlideViewActionButton.swift */; };
-		54C1BCAE24493D6D003D2DCC /* BASliderViewTwoButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C1BCAC24493D6D003D2DCC /* BASliderViewTwoButtonCell.swift */; };
-		54C1BCAF24493D6D003D2DCC /* BASliderViewTwoButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54C1BCAD24493D6D003D2DCC /* BASliderViewTwoButtonCell.xib */; };
+		547C333F25C7C6FA00DDF5A4 /* BASliderViewTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 547C332425C7C6FA00DDF5A4 /* BASliderViewTextCell.xib */; };
+		547C334025C7C6FA00DDF5A4 /* BASliderViewHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547C332525C7C6FA00DDF5A4 /* BASliderViewHeaderCell.swift */; };
+		547C334125C7C6FA00DDF5A4 /* BASliderViewButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547C332625C7C6FA00DDF5A4 /* BASliderViewButtonCell.swift */; };
+		547C334225C7C6FA00DDF5A4 /* BASliderViewImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 547C332725C7C6FA00DDF5A4 /* BASliderViewImageCell.xib */; };
+		547C334325C7C6FA00DDF5A4 /* BASliderViewTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547C332825C7C6FA00DDF5A4 /* BASliderViewTextCell.swift */; };
+		547C334425C7C6FA00DDF5A4 /* BASlideViewDefaultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547C332925C7C6FA00DDF5A4 /* BASlideViewDefaultTableViewCell.swift */; };
+		547C334525C7C6FA00DDF5A4 /* BASliderViewTwoButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547C332A25C7C6FA00DDF5A4 /* BASliderViewTwoButtonCell.swift */; };
+		547C334625C7C6FA00DDF5A4 /* BASliderViewButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 547C332B25C7C6FA00DDF5A4 /* BASliderViewButtonCell.xib */; };
+		547C334725C7C6FA00DDF5A4 /* BASliderViewHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 547C332C25C7C6FA00DDF5A4 /* BASliderViewHeaderCell.xib */; };
+		547C334825C7C6FA00DDF5A4 /* BASliderViewTwoButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 547C332D25C7C6FA00DDF5A4 /* BASliderViewTwoButtonCell.xib */; };
+		547C334925C7C6FA00DDF5A4 /* BASliderViewImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547C332E25C7C6FA00DDF5A4 /* BASliderViewImageCell.swift */; };
+		547C334A25C7C6FA00DDF5A4 /* BASliderAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 547C332F25C7C6FA00DDF5A4 /* BASliderAssets.xcassets */; };
+		547C334B25C7C6FA00DDF5A4 /* BASliderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 547C333125C7C6FA00DDF5A4 /* BASliderViewController.xib */; };
+		547C334C25C7C6FA00DDF5A4 /* BASliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547C333225C7C6FA00DDF5A4 /* BASliderViewController.swift */; };
+		547C334D25C7C6FA00DDF5A4 /* BASliderViewCellRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547C333325C7C6FA00DDF5A4 /* BASliderViewCellRegister.swift */; };
+		547C334E25C7C6FA00DDF5A4 /* BASliderViewCellProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547C333525C7C6FA00DDF5A4 /* BASliderViewCellProperties.swift */; };
+		547C334F25C7C6FA00DDF5A4 /* BASliderItemProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547C333625C7C6FA00DDF5A4 /* BASliderItemProperties.swift */; };
+		547C335025C7C6FA00DDF5A4 /* BASlideViewCellIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547C333725C7C6FA00DDF5A4 /* BASlideViewCellIdentifiers.swift */; };
+		547C335125C7C6FA00DDF5A4 /* BASliderProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547C333925C7C6FA00DDF5A4 /* BASliderProtocols.swift */; };
+		547C335225C7C6FB00DDF5A4 /* BASliderViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547C333A25C7C6FA00DDF5A4 /* BASliderViewDelegates.swift */; };
+		547C335325C7C6FB00DDF5A4 /* SelfSizedTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547C333C25C7C6FA00DDF5A4 /* SelfSizedTableView.swift */; };
+		547C335425C7C6FB00DDF5A4 /* BASlideViewActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547C333D25C7C6FA00DDF5A4 /* BASlideViewActionButton.swift */; };
+		547C335525C7C6FB00DDF5A4 /* BASliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547C333E25C7C6FA00DDF5A4 /* BASliderView.swift */; };
 		54DD27512448858300FA7003 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD27502448858300FA7003 /* AppDelegate.swift */; };
 		54DD27532448858300FA7003 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD27522448858300FA7003 /* SceneDelegate.swift */; };
 		54DD27552448858300FA7003 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD27542448858300FA7003 /* ViewController.swift */; };
 		54DD27582448858300FA7003 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54DD27562448858300FA7003 /* Main.storyboard */; };
 		54DD275A2448858500FA7003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54DD27592448858500FA7003 /* Assets.xcassets */; };
 		54DD275D2448858500FA7003 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54DD275B2448858500FA7003 /* LaunchScreen.storyboard */; };
-		54DD276E2448861300FA7003 /* SelfSizedTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD276D2448861300FA7003 /* SelfSizedTableView.swift */; };
-		54DD27752448876B00FA7003 /* BASliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD27732448876B00FA7003 /* BASliderViewController.swift */; };
-		54DD27762448876B00FA7003 /* BASliderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54DD27742448876B00FA7003 /* BASliderViewController.xib */; };
-		54DD2778244895C800FA7003 /* BASliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD2777244895C800FA7003 /* BASliderView.swift */; };
-		54DD277A244897B000FA7003 /* BASliderViewCellRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD2779244897B000FA7003 /* BASliderViewCellRegister.swift */; };
-		54DD277D2448A40600FA7003 /* BASliderViewHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD277B2448A40600FA7003 /* BASliderViewHeaderCell.swift */; };
-		54DD277E2448A40600FA7003 /* BASliderViewHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54DD277C2448A40600FA7003 /* BASliderViewHeaderCell.xib */; };
-		54DD27802448A43E00FA7003 /* BASliderAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54DD277F2448A43E00FA7003 /* BASliderAssets.xcassets */; };
-		54DD27822448A6A200FA7003 /* BASlideViewCellIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD27812448A6A200FA7003 /* BASlideViewCellIdentifiers.swift */; };
-		54DD27842448A9C000FA7003 /* BASliderViewCellProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD27832448A9C000FA7003 /* BASliderViewCellProperties.swift */; };
-		54DD27882448AF8B00FA7003 /* BASliderViewImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD27862448AF8B00FA7003 /* BASliderViewImageCell.swift */; };
-		54DD27892448AF8B00FA7003 /* BASliderViewImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54DD27872448AF8B00FA7003 /* BASliderViewImageCell.xib */; };
-		54DD278C2448AFAA00FA7003 /* BASliderViewTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD278A2448AFAA00FA7003 /* BASliderViewTextCell.swift */; };
-		54DD278D2448AFAA00FA7003 /* BASliderViewTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54DD278B2448AFAA00FA7003 /* BASliderViewTextCell.xib */; };
-		54DD27902448AFBC00FA7003 /* BASliderViewButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD278E2448AFBC00FA7003 /* BASliderViewButtonCell.swift */; };
-		54DD27912448AFBC00FA7003 /* BASliderViewButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54DD278F2448AFBC00FA7003 /* BASliderViewButtonCell.xib */; };
-		54DD27932448D5D200FA7003 /* BASlideViewDefaultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD27922448D5D200FA7003 /* BASlideViewDefaultTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		543116A22449279400F1A95D /* BASliderProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BASliderProtocols.swift; sourceTree = "<group>"; };
-		54384DBF24494A8300182291 /* BASliderItemProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BASliderItemProperties.swift; sourceTree = "<group>"; };
-		54C1BCA624493660003D2DCC /* BASliderViewDelegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BASliderViewDelegates.swift; sourceTree = "<group>"; };
-		54C1BCA82449372D003D2DCC /* BASlideViewActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BASlideViewActionButton.swift; sourceTree = "<group>"; };
-		54C1BCAC24493D6D003D2DCC /* BASliderViewTwoButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BASliderViewTwoButtonCell.swift; sourceTree = "<group>"; };
-		54C1BCAD24493D6D003D2DCC /* BASliderViewTwoButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BASliderViewTwoButtonCell.xib; sourceTree = "<group>"; };
+		547C331A25C7C5C300DDF5A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		547C332425C7C6FA00DDF5A4 /* BASliderViewTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BASliderViewTextCell.xib; sourceTree = "<group>"; };
+		547C332525C7C6FA00DDF5A4 /* BASliderViewHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BASliderViewHeaderCell.swift; sourceTree = "<group>"; };
+		547C332625C7C6FA00DDF5A4 /* BASliderViewButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BASliderViewButtonCell.swift; sourceTree = "<group>"; };
+		547C332725C7C6FA00DDF5A4 /* BASliderViewImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BASliderViewImageCell.xib; sourceTree = "<group>"; };
+		547C332825C7C6FA00DDF5A4 /* BASliderViewTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BASliderViewTextCell.swift; sourceTree = "<group>"; };
+		547C332925C7C6FA00DDF5A4 /* BASlideViewDefaultTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BASlideViewDefaultTableViewCell.swift; sourceTree = "<group>"; };
+		547C332A25C7C6FA00DDF5A4 /* BASliderViewTwoButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BASliderViewTwoButtonCell.swift; sourceTree = "<group>"; };
+		547C332B25C7C6FA00DDF5A4 /* BASliderViewButtonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BASliderViewButtonCell.xib; sourceTree = "<group>"; };
+		547C332C25C7C6FA00DDF5A4 /* BASliderViewHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BASliderViewHeaderCell.xib; sourceTree = "<group>"; };
+		547C332D25C7C6FA00DDF5A4 /* BASliderViewTwoButtonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BASliderViewTwoButtonCell.xib; sourceTree = "<group>"; };
+		547C332E25C7C6FA00DDF5A4 /* BASliderViewImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BASliderViewImageCell.swift; sourceTree = "<group>"; };
+		547C332F25C7C6FA00DDF5A4 /* BASliderAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = BASliderAssets.xcassets; sourceTree = "<group>"; };
+		547C333125C7C6FA00DDF5A4 /* BASliderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BASliderViewController.xib; sourceTree = "<group>"; };
+		547C333225C7C6FA00DDF5A4 /* BASliderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BASliderViewController.swift; sourceTree = "<group>"; };
+		547C333325C7C6FA00DDF5A4 /* BASliderViewCellRegister.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BASliderViewCellRegister.swift; sourceTree = "<group>"; };
+		547C333525C7C6FA00DDF5A4 /* BASliderViewCellProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BASliderViewCellProperties.swift; sourceTree = "<group>"; };
+		547C333625C7C6FA00DDF5A4 /* BASliderItemProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BASliderItemProperties.swift; sourceTree = "<group>"; };
+		547C333725C7C6FA00DDF5A4 /* BASlideViewCellIdentifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BASlideViewCellIdentifiers.swift; sourceTree = "<group>"; };
+		547C333925C7C6FA00DDF5A4 /* BASliderProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BASliderProtocols.swift; sourceTree = "<group>"; };
+		547C333A25C7C6FA00DDF5A4 /* BASliderViewDelegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BASliderViewDelegates.swift; sourceTree = "<group>"; };
+		547C333C25C7C6FA00DDF5A4 /* SelfSizedTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfSizedTableView.swift; sourceTree = "<group>"; };
+		547C333D25C7C6FA00DDF5A4 /* BASlideViewActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BASlideViewActionButton.swift; sourceTree = "<group>"; };
+		547C333E25C7C6FA00DDF5A4 /* BASliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BASliderView.swift; sourceTree = "<group>"; };
 		54DD274D2448858300FA7003 /* BASlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BASlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54DD27502448858300FA7003 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54DD27522448858300FA7003 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,24 +70,6 @@
 		54DD27572448858300FA7003 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		54DD27592448858500FA7003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54DD275C2448858500FA7003 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		54DD275E2448858500FA7003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		54DD276D2448861300FA7003 /* SelfSizedTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfSizedTableView.swift; sourceTree = "<group>"; };
-		54DD27732448876B00FA7003 /* BASliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BASliderViewController.swift; sourceTree = "<group>"; };
-		54DD27742448876B00FA7003 /* BASliderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BASliderViewController.xib; sourceTree = "<group>"; };
-		54DD2777244895C800FA7003 /* BASliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BASliderView.swift; sourceTree = "<group>"; };
-		54DD2779244897B000FA7003 /* BASliderViewCellRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BASliderViewCellRegister.swift; sourceTree = "<group>"; };
-		54DD277B2448A40600FA7003 /* BASliderViewHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BASliderViewHeaderCell.swift; sourceTree = "<group>"; };
-		54DD277C2448A40600FA7003 /* BASliderViewHeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BASliderViewHeaderCell.xib; sourceTree = "<group>"; };
-		54DD277F2448A43E00FA7003 /* BASliderAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = BASliderAssets.xcassets; sourceTree = "<group>"; };
-		54DD27812448A6A200FA7003 /* BASlideViewCellIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BASlideViewCellIdentifiers.swift; sourceTree = "<group>"; };
-		54DD27832448A9C000FA7003 /* BASliderViewCellProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BASliderViewCellProperties.swift; sourceTree = "<group>"; };
-		54DD27862448AF8B00FA7003 /* BASliderViewImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BASliderViewImageCell.swift; sourceTree = "<group>"; };
-		54DD27872448AF8B00FA7003 /* BASliderViewImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BASliderViewImageCell.xib; sourceTree = "<group>"; };
-		54DD278A2448AFAA00FA7003 /* BASliderViewTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BASliderViewTextCell.swift; sourceTree = "<group>"; };
-		54DD278B2448AFAA00FA7003 /* BASliderViewTextCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BASliderViewTextCell.xib; sourceTree = "<group>"; };
-		54DD278E2448AFBC00FA7003 /* BASliderViewButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BASliderViewButtonCell.swift; sourceTree = "<group>"; };
-		54DD278F2448AFBC00FA7003 /* BASliderViewButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BASliderViewButtonCell.xib; sourceTree = "<group>"; };
-		54DD27922448D5D200FA7003 /* BASlideViewDefaultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BASlideViewDefaultTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,42 +83,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		54C1BCB024493D7E003D2DCC /* Views */ = {
+		547C332225C7C6FA00DDF5A4 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				54DD2777244895C800FA7003 /* BASliderView.swift */,
-				54DD276D2448861300FA7003 /* SelfSizedTableView.swift */,
-				54C1BCA82449372D003D2DCC /* BASlideViewActionButton.swift */,
+				547C332325C7C6FA00DDF5A4 /* DefaultCells */,
+				547C332F25C7C6FA00DDF5A4 /* BASliderAssets.xcassets */,
+				547C333025C7C6FA00DDF5A4 /* Controller */,
+				547C333425C7C6FA00DDF5A4 /* Properties */,
+				547C333725C7C6FA00DDF5A4 /* BASlideViewCellIdentifiers.swift */,
+				547C333825C7C6FA00DDF5A4 /* Delegates */,
+				547C333B25C7C6FA00DDF5A4 /* Views */,
 			);
-			path = Views;
+			path = Source;
 			sourceTree = "<group>";
 		};
-		54C1BCB124493D9C003D2DCC /* Delegates */ = {
+		547C332325C7C6FA00DDF5A4 /* DefaultCells */ = {
 			isa = PBXGroup;
 			children = (
-				54C1BCA624493660003D2DCC /* BASliderViewDelegates.swift */,
-				543116A22449279400F1A95D /* BASliderProtocols.swift */,
+				547C332425C7C6FA00DDF5A4 /* BASliderViewTextCell.xib */,
+				547C332525C7C6FA00DDF5A4 /* BASliderViewHeaderCell.swift */,
+				547C332625C7C6FA00DDF5A4 /* BASliderViewButtonCell.swift */,
+				547C332725C7C6FA00DDF5A4 /* BASliderViewImageCell.xib */,
+				547C332825C7C6FA00DDF5A4 /* BASliderViewTextCell.swift */,
+				547C332925C7C6FA00DDF5A4 /* BASlideViewDefaultTableViewCell.swift */,
+				547C332A25C7C6FA00DDF5A4 /* BASliderViewTwoButtonCell.swift */,
+				547C332B25C7C6FA00DDF5A4 /* BASliderViewButtonCell.xib */,
+				547C332C25C7C6FA00DDF5A4 /* BASliderViewHeaderCell.xib */,
+				547C332D25C7C6FA00DDF5A4 /* BASliderViewTwoButtonCell.xib */,
+				547C332E25C7C6FA00DDF5A4 /* BASliderViewImageCell.swift */,
 			);
-			path = Delegates;
+			path = DefaultCells;
 			sourceTree = "<group>";
 		};
-		54C1BCB224493DD1003D2DCC /* Controller */ = {
+		547C333025C7C6FA00DDF5A4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				54DD27732448876B00FA7003 /* BASliderViewController.swift */,
-				54DD27742448876B00FA7003 /* BASliderViewController.xib */,
-				54DD2779244897B000FA7003 /* BASliderViewCellRegister.swift */,
+				547C333125C7C6FA00DDF5A4 /* BASliderViewController.xib */,
+				547C333225C7C6FA00DDF5A4 /* BASliderViewController.swift */,
+				547C333325C7C6FA00DDF5A4 /* BASliderViewCellRegister.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		54C1BCB324493DF8003D2DCC /* Properties */ = {
+		547C333425C7C6FA00DDF5A4 /* Properties */ = {
 			isa = PBXGroup;
 			children = (
-				54DD27832448A9C000FA7003 /* BASliderViewCellProperties.swift */,
-				54384DBF24494A8300182291 /* BASliderItemProperties.swift */,
+				547C333525C7C6FA00DDF5A4 /* BASliderViewCellProperties.swift */,
+				547C333625C7C6FA00DDF5A4 /* BASliderItemProperties.swift */,
 			);
 			path = Properties;
+			sourceTree = "<group>";
+		};
+		547C333825C7C6FA00DDF5A4 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				547C333925C7C6FA00DDF5A4 /* BASliderProtocols.swift */,
+				547C333A25C7C6FA00DDF5A4 /* BASliderViewDelegates.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		547C333B25C7C6FA00DDF5A4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				547C333C25C7C6FA00DDF5A4 /* SelfSizedTableView.swift */,
+				547C333D25C7C6FA00DDF5A4 /* BASlideViewActionButton.swift */,
+				547C333E25C7C6FA00DDF5A4 /* BASliderView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		54DD27442448858300FA7003 = {
@@ -140,48 +172,16 @@
 		54DD274F2448858300FA7003 /* BASlider */ = {
 			isa = PBXGroup;
 			children = (
-				54DD276C244885EE00FA7003 /* Source */,
+				547C332225C7C6FA00DDF5A4 /* Source */,
 				54DD27502448858300FA7003 /* AppDelegate.swift */,
 				54DD27522448858300FA7003 /* SceneDelegate.swift */,
 				54DD27542448858300FA7003 /* ViewController.swift */,
 				54DD27562448858300FA7003 /* Main.storyboard */,
 				54DD27592448858500FA7003 /* Assets.xcassets */,
 				54DD275B2448858500FA7003 /* LaunchScreen.storyboard */,
-				54DD275E2448858500FA7003 /* Info.plist */,
+				547C331A25C7C5C300DDF5A4 /* Info.plist */,
 			);
 			path = BASlider;
-			sourceTree = "<group>";
-		};
-		54DD276C244885EE00FA7003 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				54DD27812448A6A200FA7003 /* BASlideViewCellIdentifiers.swift */,
-				54C1BCB024493D7E003D2DCC /* Views */,
-				54C1BCB224493DD1003D2DCC /* Controller */,
-				54C1BCB124493D9C003D2DCC /* Delegates */,
-				54C1BCB324493DF8003D2DCC /* Properties */,
-				54DD27852448AF6100FA7003 /* DefaultCells */,
-				54DD277F2448A43E00FA7003 /* BASliderAssets.xcassets */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		54DD27852448AF6100FA7003 /* DefaultCells */ = {
-			isa = PBXGroup;
-			children = (
-				54DD27922448D5D200FA7003 /* BASlideViewDefaultTableViewCell.swift */,
-				54DD277B2448A40600FA7003 /* BASliderViewHeaderCell.swift */,
-				54DD277C2448A40600FA7003 /* BASliderViewHeaderCell.xib */,
-				54DD27862448AF8B00FA7003 /* BASliderViewImageCell.swift */,
-				54DD27872448AF8B00FA7003 /* BASliderViewImageCell.xib */,
-				54DD278A2448AFAA00FA7003 /* BASliderViewTextCell.swift */,
-				54DD278B2448AFAA00FA7003 /* BASliderViewTextCell.xib */,
-				54DD278E2448AFBC00FA7003 /* BASliderViewButtonCell.swift */,
-				54DD278F2448AFBC00FA7003 /* BASliderViewButtonCell.xib */,
-				54C1BCAC24493D6D003D2DCC /* BASliderViewTwoButtonCell.swift */,
-				54C1BCAD24493D6D003D2DCC /* BASliderViewTwoButtonCell.xib */,
-			);
-			path = DefaultCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,7 +211,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = Betto;
 				TargetAttributes = {
 					54DD274C2448858300FA7003 = {
@@ -242,16 +242,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				547C334625C7C6FA00DDF5A4 /* BASliderViewButtonCell.xib in Resources */,
 				54DD275D2448858500FA7003 /* LaunchScreen.storyboard in Resources */,
-				54DD27802448A43E00FA7003 /* BASliderAssets.xcassets in Resources */,
-				54C1BCAF24493D6D003D2DCC /* BASliderViewTwoButtonCell.xib in Resources */,
-				54DD278D2448AFAA00FA7003 /* BASliderViewTextCell.xib in Resources */,
+				547C334B25C7C6FA00DDF5A4 /* BASliderViewController.xib in Resources */,
 				54DD275A2448858500FA7003 /* Assets.xcassets in Resources */,
-				54DD27762448876B00FA7003 /* BASliderViewController.xib in Resources */,
-				54DD277E2448A40600FA7003 /* BASliderViewHeaderCell.xib in Resources */,
-				54DD27892448AF8B00FA7003 /* BASliderViewImageCell.xib in Resources */,
-				54DD27912448AFBC00FA7003 /* BASliderViewButtonCell.xib in Resources */,
+				547C334225C7C6FA00DDF5A4 /* BASliderViewImageCell.xib in Resources */,
 				54DD27582448858300FA7003 /* Main.storyboard in Resources */,
+				547C334825C7C6FA00DDF5A4 /* BASliderViewTwoButtonCell.xib in Resources */,
+				547C333F25C7C6FA00DDF5A4 /* BASliderViewTextCell.xib in Resources */,
+				547C334A25C7C6FA00DDF5A4 /* BASliderAssets.xcassets in Resources */,
+				547C334725C7C6FA00DDF5A4 /* BASliderViewHeaderCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,25 +262,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54C1BCA724493660003D2DCC /* BASliderViewDelegates.swift in Sources */,
-				54DD27902448AFBC00FA7003 /* BASliderViewButtonCell.swift in Sources */,
+				547C334C25C7C6FA00DDF5A4 /* BASliderViewController.swift in Sources */,
+				547C335325C7C6FB00DDF5A4 /* SelfSizedTableView.swift in Sources */,
+				547C334425C7C6FA00DDF5A4 /* BASlideViewDefaultTableViewCell.swift in Sources */,
+				547C334525C7C6FA00DDF5A4 /* BASliderViewTwoButtonCell.swift in Sources */,
+				547C334925C7C6FA00DDF5A4 /* BASliderViewImageCell.swift in Sources */,
+				547C334F25C7C6FA00DDF5A4 /* BASliderItemProperties.swift in Sources */,
+				547C335525C7C6FB00DDF5A4 /* BASliderView.swift in Sources */,
+				547C335225C7C6FB00DDF5A4 /* BASliderViewDelegates.swift in Sources */,
+				547C335425C7C6FB00DDF5A4 /* BASlideViewActionButton.swift in Sources */,
+				547C335125C7C6FA00DDF5A4 /* BASliderProtocols.swift in Sources */,
+				547C334125C7C6FA00DDF5A4 /* BASliderViewButtonCell.swift in Sources */,
+				547C335025C7C6FA00DDF5A4 /* BASlideViewCellIdentifiers.swift in Sources */,
+				547C334325C7C6FA00DDF5A4 /* BASliderViewTextCell.swift in Sources */,
+				547C334D25C7C6FA00DDF5A4 /* BASliderViewCellRegister.swift in Sources */,
 				54DD27552448858300FA7003 /* ViewController.swift in Sources */,
-				54DD27882448AF8B00FA7003 /* BASliderViewImageCell.swift in Sources */,
-				54DD27932448D5D200FA7003 /* BASlideViewDefaultTableViewCell.swift in Sources */,
-				543116A32449279400F1A95D /* BASliderProtocols.swift in Sources */,
-				54C1BCA92449372D003D2DCC /* BASlideViewActionButton.swift in Sources */,
-				54DD278C2448AFAA00FA7003 /* BASliderViewTextCell.swift in Sources */,
-				54DD27752448876B00FA7003 /* BASliderViewController.swift in Sources */,
-				54DD277D2448A40600FA7003 /* BASliderViewHeaderCell.swift in Sources */,
-				54DD27822448A6A200FA7003 /* BASlideViewCellIdentifiers.swift in Sources */,
+				547C334025C7C6FA00DDF5A4 /* BASliderViewHeaderCell.swift in Sources */,
 				54DD27512448858300FA7003 /* AppDelegate.swift in Sources */,
-				54384DC024494A8300182291 /* BASliderItemProperties.swift in Sources */,
+				547C334E25C7C6FA00DDF5A4 /* BASliderViewCellProperties.swift in Sources */,
 				54DD27532448858300FA7003 /* SceneDelegate.swift in Sources */,
-				54DD27842448A9C000FA7003 /* BASliderViewCellProperties.swift in Sources */,
-				54DD276E2448861300FA7003 /* SelfSizedTableView.swift in Sources */,
-				54C1BCAE24493D6D003D2DCC /* BASliderViewTwoButtonCell.swift in Sources */,
-				54DD2778244895C800FA7003 /* BASliderView.swift in Sources */,
-				54DD277A244897B000FA7003 /* BASliderViewCellRegister.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +332,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -392,6 +393,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;

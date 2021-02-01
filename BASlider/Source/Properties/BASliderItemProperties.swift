@@ -24,6 +24,7 @@ struct BASliderItemProperties {
     var borderColor : UIColor?
     var borderWidth : CGFloat?
     var cornerRadius : CGFloat?
+    var isCustomHeader : Bool?
     
     init(
     itemID : Int,
@@ -34,9 +35,11 @@ struct BASliderItemProperties {
     backgroundColour : UIColor? = .white,
     desiredHeight : CGFloat? = 0,
     imageName : String = "",
+    image : UIImage = UIImage(),
     borderColor : UIColor? = .white,
     boarderWidth : CGFloat? = 0,
-    cornerRadius : CGFloat? = 0
+    cornerRadius : CGFloat? = 0,
+    isCustomHeader : Bool? = false
     
     ) {
         
@@ -47,10 +50,15 @@ struct BASliderItemProperties {
         self.textAlignment = textAlignment
         self.backgroundColour = backgroundColour
         self.desiredelementHeight = desiredHeight
-        self.image = UIImage(named: imageName)
+        if imageName != ""{
+            self.image = UIImage(named: imageName)
+        }else{
+            self.image = image
+        }
         self.borderColor = borderColor
         self.borderWidth = boarderWidth
         self.cornerRadius = cornerRadius
+        self.isCustomHeader = isCustomHeader
         
     }
     

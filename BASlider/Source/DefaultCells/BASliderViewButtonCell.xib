@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -9,14 +10,14 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BASliderViewButtonCell" rowHeight="93" id="KGk-i7-Jjw" customClass="BASliderViewButtonCell" customModule="BASlider" customModuleProvider="target">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BASliderViewButtonCell" rowHeight="93" id="KGk-i7-Jjw" customClass="BASliderViewButtonCell" customModule="FedMobile" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="327" height="93"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
                 <rect key="frame" x="0.0" y="0.0" width="327" height="93"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VFz-Xd-pee" customClass="BASlideViewActionButton" customModule="BASlider" customModuleProvider="target">
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VFz-Xd-pee" customClass="BASlideViewActionButton" customModule="FedMobile" customModuleProvider="target">
                         <rect key="frame" x="20" y="20" width="287" height="45"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="45" id="jee-wO-vSk"/>
@@ -28,6 +29,7 @@
                         </connections>
                     </button>
                 </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 <constraints>
                     <constraint firstAttribute="trailing" secondItem="VFz-Xd-pee" secondAttribute="trailing" constant="20" id="8SF-NF-m1A"/>
                     <constraint firstAttribute="bottom" secondItem="VFz-Xd-pee" secondAttribute="bottom" constant="20" id="JEw-PC-qiA"/>
@@ -35,6 +37,7 @@
                     <constraint firstItem="VFz-Xd-pee" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="jVQ-u7-jqc"/>
                 </constraints>
             </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="button" destination="VFz-Xd-pee" id="mVr-j7-pxj"/>
