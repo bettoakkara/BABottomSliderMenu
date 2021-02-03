@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 public var BASlider = BASliderView.init()
-var BABottomSliderMenuBundle = Bundle(identifier: "Akkara.BABottomSliderMenu")
+var BABottomSliderMenuBundle = Bundle(for: BASliderView.self)
 open class BASliderView {
     private static var sliderViewCV : BASliderViewController?
     public func show(title: String = "",titleColor : UIColor = .black ,sliderViewCells: [BASliderViewCellProperties], dismissOnTap: Bool = true, isHeaderEnabled: Bool = true,isBackgroungImgEnabled: Bool = false, controller : UIViewController, delegate : Any? = nil) {
