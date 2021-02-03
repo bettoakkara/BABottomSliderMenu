@@ -8,7 +8,13 @@ BABottomSliderMenu is a customizable bottom slide Menu.
 # Compatibility
 BABottomSliderMenu requires iOS 13+ and is compatible with Swift 5 projects.
 # Installation
+
+```pod BABottomSliderMenu``` 
+
+or
+
 Drag and Drop the folder `Source` into your project.
+
 # Usage
 
 BABottomSliderMenu was designed to be used effortlessly.
