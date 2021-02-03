@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BABottomSliderMenu'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'BABottomSliderMenu is a customizable bottom slide Menu.'
 
 # This description is used to generate tags and improve search results.
