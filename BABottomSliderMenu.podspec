@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bettoakkara' => 'bettoakkara1@gmail.com' }
-  s.source           = { :git => 'https://github.com/bettoakkara/BABottomSliderMenu.git', :branch => 'master' :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/bettoakkara/BABottomSliderMenu.git', :branch => 'master', :tag => s.version.to_s }
 
   s.swift_version = '5.0'
   s.ios.deployment_target = '13.0'
