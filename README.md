@@ -6,7 +6,7 @@ BABottomSliderMenu is a customizable bottom slide Menu.
 
 
 # Compatibility
-BABottomSliderMenu requires iOS 10+ and is compatible with Swift 4.2 projects.
+BABottomSliderMenu requires iOS 13+ and is compatible with Swift 5 projects.
 # Installation
 Drag and Drop the folder `Source` into your project.
 # Usage
