@@ -12,6 +12,7 @@ class BASlideViewDefaultTableViewCell: UITableViewCell {
     
     weak var delegate : BASliderProtocols?
     var itemProperties : [BASliderItemProperties]?
+    var rowIndex : IndexPath?
     var cellIdentifier : BASliderViewCellIdetifiers?
     override func awakeFromNib() {
         self.selectionStyle = .none

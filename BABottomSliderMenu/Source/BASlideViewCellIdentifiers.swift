@@ -14,4 +14,5 @@ public enum BASliderViewCellIdetifiers : String {
     case twoButtonCell = "BASliderViewTwoButtonCell"
     case imageCell = "BASliderViewImageCell"
     case textCell = "BASliderViewTextCell"
+    case radioOptionTextCell = "BASliderViewRadioOptionTextCell"
 }

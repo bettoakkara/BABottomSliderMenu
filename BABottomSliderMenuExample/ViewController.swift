@@ -69,10 +69,25 @@ class ViewController: UIViewController {
             )]
         )
 
+        let cell5 = BASliderViewCellProperties(
+            nibName: BASliderViewCellIdetifiers.radioOptionTextCell.rawValue,
+                   cellIdentifier: BASliderViewCellIdetifiers.radioOptionTextCell,
+                   index: 3,
+                   itemProperties: [BASliderItemProperties(
+                       itemID: 10023,
+                       text: "This an Option",
+                       font: UIFont.systemFont(ofSize: 12, weight: .light),
+                       textColour: .link,
+                       backgroundColour: .white
+                   )]
+               )
+
+
+
         let cell4 = BASliderViewCellProperties(
             nibName: BASliderViewCellIdetifiers.buttonCell.rawValue,
                    cellIdentifier: BASliderViewCellIdetifiers.buttonCell,
-                   index: 3,
+                   index: 4,
                    itemProperties: [BASliderItemProperties(
                        itemID: 10011,
                        text: "link",
@@ -84,7 +99,7 @@ class ViewController: UIViewController {
                    )]
                )
 
-        let sliderViewCells = [cell1, cell2, cell3, cell4]
+        let sliderViewCells = [cell1, cell2, cell3, cell5, cell4]
         BASlider.show(title: "Alert", sliderViewCells: sliderViewCells, dismissOnTap: false, isHeaderEnabled: true, controller: self)
 
     }
@@ -93,6 +108,10 @@ class ViewController: UIViewController {
 
 
 extension ViewController : BASliderViewDelegates{
+    func BASliderOptionView(_ cellIdentifier: BASliderViewCellIdetifiers?, didSelectRowAt indexPath: IndexPath?, option: String?) {
+        print(option ?? "")
+    }
+
     func BASliderView(_ cellIdentifier: BASliderViewCellIdetifiers?, itemId: Int?) {
 
         BASlider.dismiss()

@@ -12,4 +12,5 @@ import Foundation
 protocol BASliderProtocols : class{
     func BASliderDismiss()
     func BASliderView(_ cellIdentifier: BASliderViewCellIdetifiers?, itemId : Int?)
+    func BASliderOptionView(_ cellIdentifier: BASliderViewCellIdetifiers?, didSelectRowAt indexPath: IndexPath?, option: String?)
 }

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="BASliderViewRadioOptionTextCell" rowHeight="72" id="KGk-i7-Jjw" customClass="BASliderViewRadioOptionTextCell" customModule="BHIM_LOTZA_PAY" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="371" height="72"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="371" height="72"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z6N-Y6-BFi">
+                        <rect key="frame" x="10" y="10" width="301" height="52"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="iuu-cK-d4R"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="auw-9t-NfL">
+                        <rect key="frame" x="331" y="26" width="20" height="20"/>
+                        <subviews>
+                            <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="PKz-Jo-f3s">
+                                <rect key="frame" x="3" y="3" width="14" height="14"/>
+                                <color key="backgroundColor" name="nav_colour"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="7"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" name="background_colour"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="1VP-NP-VxO"/>
+                            <constraint firstAttribute="width" constant="20" id="QTB-8N-CsA"/>
+                            <constraint firstItem="PKz-Jo-f3s" firstAttribute="centerX" secondItem="auw-9t-NfL" secondAttribute="centerX" id="Qng-Qk-KcI"/>
+                            <constraint firstItem="PKz-Jo-f3s" firstAttribute="leading" secondItem="auw-9t-NfL" secondAttribute="leading" constant="3" id="Zd4-Vl-vNv"/>
+                            <constraint firstItem="PKz-Jo-f3s" firstAttribute="centerY" secondItem="auw-9t-NfL" secondAttribute="centerY" id="d39-e3-QgY"/>
+                            <constraint firstItem="PKz-Jo-f3s" firstAttribute="top" secondItem="auw-9t-NfL" secondAttribute="top" constant="3" id="tZD-gn-rEa"/>
+                            <constraint firstAttribute="trailing" secondItem="PKz-Jo-f3s" secondAttribute="trailing" constant="3" id="wmT-Eh-Pxe"/>
+                            <constraint firstAttribute="bottom" secondItem="PKz-Jo-f3s" secondAttribute="bottom" constant="3" id="x1n-Lg-7BQ"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="0.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" name="nav_colour"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="idi-BM-Woi">
+                        <rect key="frame" x="0.0" y="0.0" width="371" height="72"/>
+                        <connections>
+                            <action selector="selectionButtonAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="l9o-3v-gE6"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="auw-9t-NfL" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="0Jd-1Y-aG6"/>
+                    <constraint firstItem="idi-BM-Woi" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="37y-oY-f7U"/>
+                    <constraint firstItem="auw-9t-NfL" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="E34-PF-SUR"/>
+                    <constraint firstItem="Z6N-Y6-BFi" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="PnL-y1-ums"/>
+                    <constraint firstItem="Z6N-Y6-BFi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="SD6-0B-VCm"/>
+                    <constraint firstAttribute="trailing" secondItem="idi-BM-Woi" secondAttribute="trailing" id="dVE-Qd-DrS"/>
+                    <constraint firstAttribute="bottom" secondItem="idi-BM-Woi" secondAttribute="bottom" id="mjn-NR-LA6"/>
+                    <constraint firstItem="auw-9t-NfL" firstAttribute="leading" secondItem="Z6N-Y6-BFi" secondAttribute="trailing" constant="20" id="n2d-JP-j4W"/>
+                    <constraint firstItem="idi-BM-Woi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="rgQ-91-i8I"/>
+                    <constraint firstAttribute="bottom" secondItem="Z6N-Y6-BFi" secondAttribute="bottom" constant="10" id="va6-LD-REA"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" name="background_colour"/>
+            <connections>
+                <outlet property="radioBorderView" destination="auw-9t-NfL" id="PmA-Nw-L2j"/>
+                <outlet property="selectedView" destination="PKz-Jo-f3s" id="Pvx-6x-2av"/>
+                <outlet property="selectionButton" destination="idi-BM-Woi" id="vgJ-Fk-pLz"/>
+                <outlet property="textlbl" destination="Z6N-Y6-BFi" id="947-B5-NMW"/>
+            </connections>
+            <point key="canvasLocation" x="-7.9710144927536239" y="78.348214285714278"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="background_colour">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="nav_colour">
+            <color red="0.21600000560283661" green="0.4779999852180481" blue="0.72200000286102295" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

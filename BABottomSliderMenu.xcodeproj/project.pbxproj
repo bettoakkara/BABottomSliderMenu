@@ -40,6 +40,8 @@
 		54269B6525CA5F2600AC47E9 /* BABottomSliderMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54269B0725CA5DA100AC47E9 /* BABottomSliderMenu.framework */; };
 		54269B6625CA5F2600AC47E9 /* BABottomSliderMenu.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 54269B0725CA5DA100AC47E9 /* BABottomSliderMenu.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		54269B6C25CA6A4C00AC47E9 /* BABottomSliderMenu.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 54269B6B25CA6A4C00AC47E9 /* BABottomSliderMenu.podspec */; };
+		54ECFD412605D1BA00EB58B1 /* BASliderViewRadioOptionTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ECFD3F2605D1BA00EB58B1 /* BASliderViewRadioOptionTextCell.swift */; };
+		54ECFD422605D1BA00EB58B1 /* BASliderViewRadioOptionTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54ECFD402605D1BA00EB58B1 /* BASliderViewRadioOptionTextCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +104,8 @@
 		54269B5C25CA5F0700AC47E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54269B5E25CA5F0700AC47E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54269B6B25CA6A4C00AC47E9 /* BABottomSliderMenu.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BABottomSliderMenu.podspec; sourceTree = "<group>"; };
+		54ECFD3F2605D1BA00EB58B1 /* BASliderViewRadioOptionTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BASliderViewRadioOptionTextCell.swift; sourceTree = "<group>"; };
+		54ECFD402605D1BA00EB58B1 /* BASliderViewRadioOptionTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BASliderViewRadioOptionTextCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +185,8 @@
 				54269B1E25CA5E0C00AC47E9 /* BASliderViewHeaderCell.xib */,
 				54269B1F25CA5E0C00AC47E9 /* BASliderViewTwoButtonCell.xib */,
 				54269B2025CA5E0C00AC47E9 /* BASliderViewImageCell.swift */,
+				54ECFD3F2605D1BA00EB58B1 /* BASliderViewRadioOptionTextCell.swift */,
+				54ECFD402605D1BA00EB58B1 /* BASliderViewRadioOptionTextCell.xib */,
 			);
 			path = DefaultCells;
 			sourceTree = "<group>";
@@ -336,6 +342,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54ECFD422605D1BA00EB58B1 /* BASliderViewRadioOptionTextCell.xib in Resources */,
 				54269B3825CA5E0C00AC47E9 /* BASliderViewButtonCell.xib in Resources */,
 				54269B3925CA5E0C00AC47E9 /* BASliderViewHeaderCell.xib in Resources */,
 				54269B3D25CA5E0C00AC47E9 /* BASliderViewController.xib in Resources */,
@@ -380,6 +387,7 @@
 				54269B3625CA5E0C00AC47E9 /* BASlideViewDefaultTableViewCell.swift in Sources */,
 				54269B4725CA5E0C00AC47E9 /* BASliderView.swift in Sources */,
 				54269B3F25CA5E0C00AC47E9 /* BASliderViewCellRegister.swift in Sources */,
+				54ECFD412605D1BA00EB58B1 /* BASliderViewRadioOptionTextCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
